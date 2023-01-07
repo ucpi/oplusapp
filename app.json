@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "oplus",
+    "slug": "oplus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "w3akvrn",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.pranjl.oplus"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "99dcfb07-d32a-4803-bb33-8140798ccbf3"
+      }
+    }
+  }
+}
