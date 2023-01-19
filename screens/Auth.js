@@ -9,7 +9,7 @@ global.Buffer = global.Buffer || require('buffer').Buffer
 const resolvedRedirectUrl =
 Constants.appOwnership == AppOwnership.Expo || Constants.appOwnership == AppOwnership.Guest
   ? Linking.createURL("web3auth", {})
-  : Linking.createURL("web3auth", { scheme: scheme });
+  : Linking.createURL("web3auth", { scheme: "w3akvrn" });
 const clientId="BMNY-Kz5Qv60hjpAqRVhTZVaMgRu1RWogG4SB9b46bSkL6dNH5FLnFUraVUKut6M-eEgQJ0qYcMR9wRjKQKMT6U";
 const web3auth = new Web3Auth(WebBrowser, {
 clientId,
